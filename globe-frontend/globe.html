@@ -1,0 +1,61 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Globe</title>
+  </head>
+<!-- Styles -->
+<body>
+    <style>
+        #chartdiv {
+          width: 80%;
+          height: 500px;
+          margin-right: 10%;
+          margin-top: 5%;
+
+        }
+        #text {
+          color: rgb(255, 182, 45);
+          font-family: Arial, Helvetica, sans-serif;
+          width: 15;
+          margin-left: 10%;
+          margin-top: 5%;
+        }
+
+        body {
+          background-color: black;
+          /* fill-opacity: 0.5; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    </style>
+    
+        
+        <!-- Resources -->
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/themes/Dark.js"></script>
+
+
+        
+        <!-- Chart code -->
+        <img src="waffle_pic copy.png" style="
+    position: fixed;
+    left: 0;
+    top: 0;
+">
+        <script src="./chart_globe.js"></script>
+        <script src="./Header.js"></script>
+
+
+        
+        <div id="text">
+          <h1>THE GLOBE</h1>
+          <h2>Select Your Country...</h2>
+        </div>
+        <!-- HTML -->
+        <div id="chartdiv"></div>
+</body>
